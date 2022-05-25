@@ -1,6 +1,8 @@
 /* first section */
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     background: white;
 }
@@ -76,6 +78,8 @@ ul a {
 
 .info {
     background-color: white;
+    margin-bottom: 100px;
+
 }
 
 .infoheader {
@@ -111,4 +115,34 @@ ul a {
     color: #1F2937;
     text-align: center;
     margin: 4px;
+}
+
+/* Quote Section */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quotecontainer {
+    padding: 100px;
+    width: 600px;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotext1 {
+    text-align: end;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+/* CTA */
+
+.cta {
+    
 }
