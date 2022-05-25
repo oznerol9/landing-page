@@ -2,6 +2,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background: white;
 }
 
 .header {
@@ -9,7 +10,7 @@ body {
 }
 
 .navbar {
-    padding: 12px;
+  padding: 12px;
   display: flex;
   align-items: baseline;
   justify-content: space-around;
@@ -28,7 +29,7 @@ body {
     color: white;
     border-radius: 5px;
     font-weight: 700;
-    margin: 20px 0px;
+    margin: 12px 0px;
     padding: 6px;
 }
 
@@ -59,7 +60,7 @@ ul {
     gap: 16px;
 }
 
-a {
+ul a {
     text-decoration: none;
     color: white;
     font-weight: 400;
@@ -69,4 +70,45 @@ a {
     font-size: 24px;
     color: white;
     font-weight: 700;
+}
+
+/* Info Section */
+
+.info {
+    background-color: white;
+}
+
+.infoheader {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    padding: 40px;
+}
+
+.infocontainer {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.container {
+    max-width: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container button {
+    width: 120px;
+    height: 120px;
+    border-color: royalblue;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.infotext {
+    font-size: 12px;
+    color: #1F2937;
+    text-align: center;
+    margin: 4px;
 }
